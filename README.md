@@ -1,2 +1,1 @@
-# sublime-settings
-My settings for sublime3
+Some handy stuff
