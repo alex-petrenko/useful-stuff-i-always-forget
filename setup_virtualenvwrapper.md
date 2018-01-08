@@ -5,8 +5,9 @@ $ sudo pip install virtualenvwrapper
 ```
 envs will be in ~/.virtualenvs
 ```
+$ export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
 $ source /usr/local/bin/virtualenvwrapper.sh
-$ mkvirtualenv myenv
+$ mkvirtualenv --python=`which python3` myenv
 $ workon myenv
 $ echo "source /usr/local/bin/virtualenvwrapper.sh" >> ~/.bashrc
 ```
