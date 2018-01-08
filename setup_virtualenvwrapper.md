@@ -6,12 +6,12 @@ $ sudo pip install virtualenvwrapper
 envs will be in ~/.virtualenvs
 ```
 $ source /usr/local/bin/virtualenvwrapper.sh
-$ mkvirtualenv spitomin
-$ workon spitomin
+$ mkvirtualenv myenv
+$ workon myenv
 $ echo "source /usr/local/bin/virtualenvwrapper.sh" >> ~/.bashrc
 ```
 associate env with project
 ```
-$ mkdir -p ~/projects/spitomin && cd ~/projects/spitomin
+$ mkdir -p ~/projects/myproj && cd ~/projects/myproj
 $ setvirtualenvproject $VIRTUAL_ENV `pwd`
 ```
